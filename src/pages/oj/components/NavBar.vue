@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" class="oj-menu">
-      <div class="logo"><img src="https://oss.linkmun.com/assets/654991906-20464a03bc280f1f%201000.png"  alt="CSMUOJ" /></div>
+      <div class="logo"><img src="https://oss.linkmun.com/assets/654991906-20464a03bc280f1f%201000.png"  alt="CSMUOJ" height="60" /></div>
       <Menu-item name="/">
         <Icon type="home"></Icon>
         {{$t('m.Home')}}

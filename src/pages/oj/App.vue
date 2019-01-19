@@ -7,7 +7,7 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p> <a href="https://oj.acm.csmu.edu.cn">Powered by OnlineJudge && DevOps by The CSMU ACM ICPC Team</a>
+        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a> && <a href="https://github.com/FirstLightMK/OnlineJudgeFE-for-CSMUOJ">Customized by The CSMU ACM ICPC Team</a>
           <span v-if="version">&nbsp; Version: {{ version }}</span>
         </p>
       </div>
